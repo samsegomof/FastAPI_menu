@@ -3,7 +3,10 @@ from sqlalchemy.orm import Session
 from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.ext.declarative import declarative_base
 
-engine = create_engine("postgresql://menu_db:menudb@localhost:5432/menu_db")
+from api.config import DATABASE_URL
+
+
+engine = create_engine(DATABASE_URL)
 BaseModel = declarative_base()
 
 
