@@ -1,7 +1,6 @@
 alembic==1.9.1
 anyio==3.6.2
 asttokens==2.2.1
-asyncpg==0.27.0
 attrs==22.1.0
 backcall==0.2.0
 CacheControl==0.12.11
@@ -20,7 +19,6 @@ exceptiongroup==1.1.0
 executing==1.2.0
 fastapi==0.89.1
 filelock==3.8.0
-flake8==6.0.0
 greenlet==2.0.1
 h11==0.14.0
 html5lib==1.1
@@ -65,7 +63,6 @@ pyrsistent==0.18.1
 pytest==7.2.0
 pytest-asyncio==0.20.3
 pytest-cov==4.0.0
-python-dotenv==0.21.0
 rapidfuzz==2.13.7
 requests==2.28.1
 requests-toolbelt==0.9.1

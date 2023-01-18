@@ -1,7 +1,4 @@
-from pydantic import BaseModel, Field
-# import re
-
-# regex_price = re.compile(r"[+-]?([0-9]*[.])?[0-9]+")
+from pydantic import BaseModel
 
 
 class MenuValidator(BaseModel):
