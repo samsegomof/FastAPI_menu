@@ -1,5 +1,5 @@
 # API for restaurant wrote on FastAPI.
-## Before starting, specify the data for connecting to the database in /api/db.py
+## Before starting, create and fill .env file in according to .env.example file.
 ### For start install dependencies
 - `pip install -r requirements.txt`
 - make migrations `alembic upgrade d279cf5b36d0`
